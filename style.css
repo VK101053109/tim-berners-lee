@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+.pic{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    background:linear-gradient(#60ebeb 0%, #27ae60 100%) ;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+
+    
+}
+h2{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+    background:linear-gradient(#fa9b9b 30%,#eac7f0 80%,#f7b68b 100%) ;
+}
+.line{
+background-color: black;
+width: 100%;
+height: 6px;
+margin: 8px auto;
+}
+.menu{
+    position:fixed;
+    z-index: 10;
+    top: 0;
+    cursor: pointer;
+    list-style: none;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+.lin{
+    display: inline;
+    padding-left:9px;
+    padding-right: 9px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.lin:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.menu a{
+    text-decoration: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+#writings a{
+    color:green !important;
+    font-size: 20px;
+}
+.media h3{
+    display: inline;
+}
+
